@@ -48,7 +48,7 @@ body {
 }
 
 .container:hover .image-catalogo {
-    opacity: 0.3;
+    opacity: 0.8;
 }
 
 .container:hover .div-texto-meio {
@@ -91,4 +91,62 @@ body {
 
 option {
     color: #666;
+}
+
+footer {
+    background: #eee;
+    padding: 50px 0px 20px 0px;
+    position: relative;
+    box-shadow: 0 0 10px #333;
+}
+
+footer h4 {
+    color: #333;
+    font-size: 0.8em;
+    text-transform: uppercase;
+}
+
+footer p {
+    color: #333;
+}
+
+footer a:hover {
+    box-shadow: none;
+}
+
+footer .navbar-nav a {
+    color: #333;
+    font-size: 0.8em;
+}
+
+footer .navbar-nav a:hover {
+    color: #ffb900;
+    text-decoration: none;
+}
+
+footer ul {
+    list-style: none;
+}
+
+footer ul li {
+    float: right;
+    margin: 0 5px;
+}
+
+.btn-custom-footer {
+    background-image: linear-gradient(to right, #ffb900 0%, #ffcc33 51%, #ffb900 100%);
+    color: #333;
+    box-shadow: 0 0 10px #000;
+    border-radius: 10px;
+    text-transform: uppercase;
+    transition: background 0.4s, 0.4s;
+    background-size: 200% auto;
+    padding: 10px 20px;
+    border: none;
+}
+
+.btn-custom-footer:hover {
+    background-position: right center;
+    /* change the direction of the change here */
+    text-decoration: none;
 }
