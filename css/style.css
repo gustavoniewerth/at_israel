@@ -5,6 +5,11 @@
     color: white;
 }
 
+.texto-meio a {
+    text-decoration: none;
+    color: white;
+}
+
 h3,
 h4,
 label,
@@ -52,7 +57,7 @@ body {
 
 .texto-meio {
 
-    background-color: rgba(102, 153, 255, 0.8);
+
     color: white;
     font-size: 16px;
     padding: 16px 32px;
